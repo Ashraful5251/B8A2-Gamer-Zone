@@ -1,0 +1,466 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define global styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+.logo h3 {
+  color: #0b0223;
+  font-size: 22px;
+  font-weight: 700;
+}
+.menu {
+  color: #3c354f;
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.follow-card {
+  display: flex;
+  align-items: center;
+  background-color: #0b02231a;
+  padding: 10px 20px;
+  border-radius: 16px;
+  margin-left: auto; /* Pushes this item to the right */
+}
+
+/* Styles for the Follow Us On icons */
+.follow-icons img {
+  width: 24px; /* Adjust icon size as needed */
+  margin-left: 10px; /* Add some space between icons */
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 40px;
+}
+
+.banner-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.banner h1 {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+}
+.GOAT {
+  text-align: center;
+  font-size: 95px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner p {
+  color: #534c64;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+.buttons {
+  margin: 30px 30px 10px 90px;
+}
+.btn-primary {
+  display: inline-flex;
+  padding: 12px 20px;
+  gap: 20px;
+  border-radius: 48px;
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn-secondary {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  gap: 20px;
+  border-radius: 48px;
+  background: #4ec5f7;
+}
+
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.main-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.main-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.main-content button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.video-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.video-section h2 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.video-section p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.funny-videos {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.video-container {
+  display: flex;
+  gap: 20px;
+}
+
+.video {
+  position: relative;
+  width: calc(50% - 10px);
+}
+.video p {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}
+
+.video img {
+  max-width: 100%;
+  height: auto;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  color: #fff;
+  cursor: pointer;
+}
+.video-container:hover .play-icon {
+  display: block;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  padding: 15px;
+}
+.additional-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.additional-content {
+  padding: 20px;
+}
+
+.additional-content h2 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.play-instantly {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.additional-content p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.additional-image img {
+  max-width: 100%;
+  height: auto;
+}
+.big-image {
+  width: 30%;
+  position: absolute;
+  padding: 8px 2px;
+}
+.small-image {
+  width: 40%;
+  position: relative;
+  padding: 210px 220px 8px 2px;
+}
+.play-games-online {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.career-section {
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+.career-content {
+  flex: 1;
+  padding: 90px;
+}
+
+.career-content h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.career-content p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.positions-locations {
+  display: flex;
+  justify-content: space-between;
+}
+.positions {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px; /* 200% */
+}
+
+.career-image img {
+  max-width: 100%;
+  height: auto;
+}
+.additional-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.action-games {
+  display: flex;
+  margin-top: 30px;
+  padding: 4px;
+}
+.action-games:hover {
+  outline: 2px solid hotpink;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.action-games-img {
+  border-radius: 50px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.action-games-text {
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-logo h2 {
+  font-size: 24px;
+}
+
+.footer-features,
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.feature,
+.social-icon {
+  display: flex;
+  padding: 2px;
+  margin: 5px;
+}
+
+.social-icon {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.footer-copyright {
+  font-size: 14px;
+}
+
+/* Adding background color to the footer */
+footer {
+  background-color: #0b0223;
+
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .menu {
+      margin-top: 10px;
+      flex-direction: column;
+    }
+    .banner {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+
+    .banner-content {
+      text-align: center;
+    }
+
+    .buttons button {
+      margin: 10px 0;
+    }
+
+    .main-section {
+      flex-direction: column;
+    }
+
+    .main-content {
+      padding: 20px 0;
+    }
+  }
+  @media (max-width: 768px) {
+    .footer-features,
+    .footer-social {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .feature,
+    .social-icon {
+      width: 100%; /* Full width for smaller screens */
+      margin-bottom: 10px;
+    }
+  }
+}
