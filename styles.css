@@ -8,8 +8,17 @@ li {
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Work Sans", sans-serif;
+}
 
-/* Define global styles */
+h1,
+h2,
+h3,
+p {
+  font-family: "Work Sans", sans-serif; /* Apply "Work Sans" to headings and paragraphs */
+}
+
 header {
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
