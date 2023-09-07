@@ -38,13 +38,26 @@ nav {
 }
 
 .logo img {
+  padding: 12px 0px 0px 50px;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .logo h3 {
   color: #0b0223;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 16px;
+}
+.G {
+  font-size: 24px;
+  font-weight: 600;
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menu {
   color: #3c354f;
@@ -71,7 +84,7 @@ nav {
   align-items: center;
   background-color: #0b02231a;
   padding: 10px 20px;
-  border-radius: 16px;
+  border-radius: 8px;
   margin-left: auto;
 }
 
@@ -175,10 +188,19 @@ main {
 }
 
 .main-content h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
+.main-content p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
 .main-content button {
   background-color: #333;
   color: #fff;
