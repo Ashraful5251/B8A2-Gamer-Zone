@@ -38,7 +38,7 @@ nav {
 }
 
 .logo img {
-  width: 60px;
+  width: 100%;
   height: auto;
 }
 .logo h3 {
@@ -50,6 +50,7 @@ nav {
   color: #3c354f;
   display: flex;
   align-items: center;
+  list-style: none;
 }
 
 .menu li {
@@ -85,12 +86,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  padding: 40px;
 }
 
 .banner-content {
   flex: 1;
-  padding: 20px;
+  padding: 10px;
 }
 
 .banner h1 {
@@ -118,7 +118,6 @@ nav {
   margin: 30px 30px 10px 155px;
 }
 .btn-primary {
-  display: inline-flex;
   padding: 12px 28px;
   gap: 30px;
   border-radius: 48px;
@@ -148,7 +147,7 @@ nav {
   background: #fff;
 }
 .banner-image img {
-  max-width: 100%;
+  max-width: 85%;
   height: auto;
 }
 
@@ -166,7 +165,7 @@ main {
 }
 
 .main-image img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
 }
 
@@ -230,7 +229,7 @@ main {
 }
 
 .video img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
 }
 
